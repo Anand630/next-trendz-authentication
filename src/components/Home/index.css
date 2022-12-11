@@ -1,0 +1,146 @@
+.home-bottom-container {
+  min-height: 80vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-button-container {
+  width: 45%;
+}
+
+.page-heading {
+  font-family: Roboto;
+  font-size: 40px;
+}
+
+.page-description {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #64748b;
+}
+
+.shop-now-button {
+  font-family: Roboto;
+  border: none;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 300;
+  width: 130px;
+}
+
+.home-page-image-desktop {
+  width: 40%;
+}
+
+.home-page-image-mobile-container {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .home-bottom-container {
+    min-height: 80vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-button-container {
+    width: 45%;
+  }
+
+  .page-heading {
+    font-family: Roboto;
+    font-size: 40px;
+  }
+
+  .page-description {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #64748b;
+  }
+
+  .shop-now-button {
+    font-family: Roboto;
+    border: none;
+    background-color: #0b69ff;
+    color: #ffffff;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    width: 130px;
+  }
+
+  .home-page-image-desktop {
+    width: 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-bottom-container {
+    min-height: 80vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-button-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .page-heading {
+    font-family: Roboto;
+    font-size: 30px;
+  }
+
+  .page-description {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #64748b;
+  }
+
+  .shop-now-button {
+    font-family: Roboto;
+    border: none;
+    background-color: #0b69ff;
+    color: #ffffff;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    width: 130px;
+  }
+
+  .home-page-image-desktop {
+    width: 40%;
+    display: none;
+  }
+
+  .home-page-image-mobile-container {
+    display: block;
+  }
+
+  .home-page-image-mobile {
+    width: 250px;
+  }
+}
