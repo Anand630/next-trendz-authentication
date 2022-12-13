@@ -39,6 +39,11 @@ class LoginForm extends Component {
     return (
       <div className="login-form-page">
         <img
+          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+          className="login-form-logo-mobile-view"
+          alt="website logo"
+        />
+        <img
           className="login-page-logo-desktop-view"
           src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-login-img.png"
           alt="website login"
@@ -50,11 +55,7 @@ class LoginForm extends Component {
               className="login-form-logo"
               alt="website logo"
             />
-            <img
-              className="login-page-logo-mobile-view"
-              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-login-img.png"
-              alt="website login"
-            />
+
             <div className="label-input-container">
               <label htmlFor="username" className="input-label">
                 USERNAME
